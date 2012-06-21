@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC27C73B1592EB9600F93A92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC27C73A1592EB9600F93A92 /* UIKit.framework */; };
+		DC27C73D1592EB9600F93A92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC27C73C1592EB9600F93A92 /* Foundation.framework */; };
+		DC27C73F1592EB9600F93A92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC27C73E1592EB9600F93A92 /* CoreGraphics.framework */; };
+		DC27C7451592EB9600F93A92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC27C7431592EB9600F93A92 /* InfoPlist.strings */; };
+		DC27C7471592EB9600F93A92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC27C7461592EB9600F93A92 /* main.m */; };
+		DC27C74B1592EB9600F93A92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC27C74A1592EB9600F93A92 /* AppDelegate.m */; };
+		DC27C74E1592EB9600F93A92 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC27C74C1592EB9600F93A92 /* MainStoryboard_iPhone.storyboard */; };
+		DC27C7511592EB9600F93A92 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC27C74F1592EB9600F93A92 /* MainStoryboard_iPad.storyboard */; };
+		DC27C7541592EB9600F93A92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC27C7531592EB9600F93A92 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC27C7361592EB9600F93A92 /* Hitchens2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hitchens2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC27C73A1592EB9600F93A92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC27C73C1592EB9600F93A92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC27C73E1592EB9600F93A92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC27C7421592EB9600F93A92 /* Hitchens2-Info.plist */ = {isa = PBXFileReference; path = "Hitchens2-Info.plist"; sourceTree = "<group>"; };
+		DC27C7441592EB9600F93A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC27C7461592EB9600F93A92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC27C7481592EB9600F93A92 /* Hitchens2-Prefix.pch */ = {isa = PBXFileReference; path = "Hitchens2-Prefix.pch"; sourceTree = "<group>"; };
+		DC27C7491592EB9600F93A92 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC27C74A1592EB9600F93A92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC27C74D1592EB9600F93A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		DC27C7501592EB9600F93A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		DC27C7521592EB9600F93A92 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		DC27C7531592EB9600F93A92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC27C7331592EB9600F93A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC27C73B1592EB9600F93A92 /* UIKit.framework in Frameworks */,
+				DC27C73D1592EB9600F93A92 /* Foundation.framework in Frameworks */,
+				DC27C73F1592EB9600F93A92 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC27C72B1592EB9500F93A92 = {
+			isa = PBXGroup;
+			children = (
+				DC27C7401592EB9600F93A92 /* Hitchens2 */,
+				DC27C7391592EB9600F93A92 /* Frameworks */,
+				DC27C7371592EB9600F93A92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC27C7371592EB9600F93A92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC27C7361592EB9600F93A92 /* Hitchens2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC27C7391592EB9600F93A92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC27C73A1592EB9600F93A92 /* UIKit.framework */,
+				DC27C73C1592EB9600F93A92 /* Foundation.framework */,
+				DC27C73E1592EB9600F93A92 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC27C7401592EB9600F93A92 /* Hitchens2 */ = {
+			isa = PBXGroup;
+			children = (
+				DC27C7491592EB9600F93A92 /* AppDelegate.h */,
+				DC27C74A1592EB9600F93A92 /* AppDelegate.m */,
+				DC27C74C1592EB9600F93A92 /* MainStoryboard_iPhone.storyboard */,
+				DC27C74F1592EB9600F93A92 /* MainStoryboard_iPad.storyboard */,
+				DC27C7521592EB9600F93A92 /* ViewController.h */,
+				DC27C7531592EB9600F93A92 /* ViewController.m */,
+				DC27C7411592EB9600F93A92 /* Supporting Files */,
+			);
+			path = Hitchens2;
+			sourceTree = "<group>";
+		};
+		DC27C7411592EB9600F93A92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC27C7421592EB9600F93A92 /* Hitchens2-Info.plist */,
+				DC27C7431592EB9600F93A92 /* InfoPlist.strings */,
+				DC27C7461592EB9600F93A92 /* main.m */,
+				DC27C7481592EB9600F93A92 /* Hitchens2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC27C7351592EB9600F93A92 /* Hitchens2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC27C7571592EB9600F93A92 /* Build configuration list for PBXNativeTarget "Hitchens2" */;
+			buildPhases = (
+				DC27C7321592EB9600F93A92 /* Sources */,
+				DC27C7331592EB9600F93A92 /* Frameworks */,
+				DC27C7341592EB9600F93A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hitchens2;
+			productName = Hitchens2;
+			productReference = DC27C7361592EB9600F93A92 /* Hitchens2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC27C72D1592EB9500F93A92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Kabrea;
+			};
+			buildConfigurationList = DC27C7301592EB9500F93A92 /* Build configuration list for PBXProject "Hitchens2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC27C72B1592EB9500F93A92;
+			productRefGroup = DC27C7371592EB9600F93A92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC27C7351592EB9600F93A92 /* Hitchens2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC27C7341592EB9600F93A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC27C7451592EB9600F93A92 /* InfoPlist.strings in Resources */,
+				DC27C74E1592EB9600F93A92 /* MainStoryboard_iPhone.storyboard in Resources */,
+				DC27C7511592EB9600F93A92 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC27C7321592EB9600F93A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC27C7471592EB9600F93A92 /* main.m in Sources */,
+				DC27C74B1592EB9600F93A92 /* AppDelegate.m in Sources */,
+				DC27C7541592EB9600F93A92 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC27C7431592EB9600F93A92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC27C7441592EB9600F93A92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC27C74C1592EB9600F93A92 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC27C74D1592EB9600F93A92 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DC27C74F1592EB9600F93A92 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC27C7501592EB9600F93A92 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC27C7551592EB9600F93A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC27C7561592EB9600F93A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC27C7581592EB9600F93A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hitchens2/Hitchens2-Prefix.pch";
+				INFOPLIST_FILE = "Hitchens2/Hitchens2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC27C7591592EB9600F93A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hitchens2/Hitchens2-Prefix.pch";
+				INFOPLIST_FILE = "Hitchens2/Hitchens2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC27C7301592EB9500F93A92 /* Build configuration list for PBXProject "Hitchens2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC27C7551592EB9600F93A92 /* Debug */,
+				DC27C7561592EB9600F93A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC27C7571592EB9600F93A92 /* Build configuration list for PBXNativeTarget "Hitchens2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC27C7581592EB9600F93A92 /* Debug */,
+				DC27C7591592EB9600F93A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC27C72D1592EB9500F93A92 /* Project object */;
+}
