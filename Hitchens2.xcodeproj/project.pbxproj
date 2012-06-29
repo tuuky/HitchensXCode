@@ -15,7 +15,12 @@
 		DC27C74B1592EB9600F93A92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC27C74A1592EB9600F93A92 /* AppDelegate.m */; };
 		DC27C74E1592EB9600F93A92 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC27C74C1592EB9600F93A92 /* MainStoryboard_iPhone.storyboard */; };
 		DC27C7511592EB9600F93A92 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC27C74F1592EB9600F93A92 /* MainStoryboard_iPad.storyboard */; };
-		DC27C7541592EB9600F93A92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC27C7531592EB9600F93A92 /* ViewController.m */; };
+		DC27C75B1592EC1D00F93A92 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC27C75A1592EC1D00F93A92 /* CoreLocation.framework */; };
+		DC27C75E1594123F00F93A92 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC27C75D1594123F00F93A92 /* MainMenuViewController.m */; };
+		DC27C76B15943B0E00F93A92 /* viles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC27C76A15943B0E00F93A92 /* viles.jpg */; };
+		DC27C76D15943BF900F93A92 /* report.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC27C76C15943BF900F93A92 /* report.jpg */; };
+		DCDEFB1C159442A4009425BC /* CreateVirusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDEFB1B159442A4009425BC /* CreateVirusViewController.m */; };
+		DCDEFB20159442B8009425BC /* ReportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDEFB1F159442B8009425BC /* ReportsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +28,23 @@
 		DC27C73A1592EB9600F93A92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DC27C73C1592EB9600F93A92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC27C73E1592EB9600F93A92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DC27C7421592EB9600F93A92 /* Hitchens2-Info.plist */ = {isa = PBXFileReference; path = "Hitchens2-Info.plist"; sourceTree = "<group>"; };
+		DC27C7421592EB9600F93A92 /* Hitchens2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hitchens2-Info.plist"; sourceTree = "<group>"; };
 		DC27C7441592EB9600F93A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC27C7461592EB9600F93A92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DC27C7481592EB9600F93A92 /* Hitchens2-Prefix.pch */ = {isa = PBXFileReference; path = "Hitchens2-Prefix.pch"; sourceTree = "<group>"; };
-		DC27C7491592EB9600F93A92 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC27C7481592EB9600F93A92 /* Hitchens2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hitchens2-Prefix.pch"; sourceTree = "<group>"; };
+		DC27C7491592EB9600F93A92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DC27C74A1592EB9600F93A92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DC27C74D1592EB9600F93A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		DC27C7501592EB9600F93A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		DC27C7521592EB9600F93A92 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		DC27C7531592EB9600F93A92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC27C75A1592EC1D00F93A92 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DC27C75C1594123F00F93A92 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		DC27C75D1594123F00F93A92 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		DC27C76A15943B0E00F93A92 /* viles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = viles.jpg; path = Hitchens2/viles.jpg; sourceTree = "<group>"; };
+		DC27C76C15943BF900F93A92 /* report.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = report.jpg; path = Hitchens2/report.jpg; sourceTree = "<group>"; };
+		DCDEFB1A159442A4009425BC /* CreateVirusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateVirusViewController.h; sourceTree = "<group>"; };
+		DCDEFB1B159442A4009425BC /* CreateVirusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateVirusViewController.m; sourceTree = "<group>"; };
+		DCDEFB1E159442B8009425BC /* ReportsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportsViewController.h; sourceTree = "<group>"; };
+		DCDEFB1F159442B8009425BC /* ReportsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC27C75B1592EC1D00F93A92 /* CoreLocation.framework in Frameworks */,
 				DC27C73B1592EB9600F93A92 /* UIKit.framework in Frameworks */,
 				DC27C73D1592EB9600F93A92 /* Foundation.framework in Frameworks */,
 				DC27C73F1592EB9600F93A92 /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +82,7 @@
 		DC27C7391592EB9600F93A92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DC27C75A1592EC1D00F93A92 /* CoreLocation.framework */,
 				DC27C73A1592EB9600F93A92 /* UIKit.framework */,
 				DC27C73C1592EB9600F93A92 /* Foundation.framework */,
 				DC27C73E1592EB9600F93A92 /* CoreGraphics.framework */,
@@ -82,10 +96,15 @@
 				DC27C7491592EB9600F93A92 /* AppDelegate.h */,
 				DC27C74A1592EB9600F93A92 /* AppDelegate.m */,
 				DC27C74C1592EB9600F93A92 /* MainStoryboard_iPhone.storyboard */,
+				DC27C75C1594123F00F93A92 /* MainMenuViewController.h */,
+				DC27C75D1594123F00F93A92 /* MainMenuViewController.m */,
 				DC27C74F1592EB9600F93A92 /* MainStoryboard_iPad.storyboard */,
-				DC27C7521592EB9600F93A92 /* ViewController.h */,
-				DC27C7531592EB9600F93A92 /* ViewController.m */,
+				DCDEFB1A159442A4009425BC /* CreateVirusViewController.h */,
+				DCDEFB1B159442A4009425BC /* CreateVirusViewController.m */,
+				DCDEFB1E159442B8009425BC /* ReportsViewController.h */,
+				DCDEFB1F159442B8009425BC /* ReportsViewController.m */,
 				DC27C7411592EB9600F93A92 /* Supporting Files */,
+				DC27C76715943AC700F93A92 /* Images */,
 			);
 			path = Hitchens2;
 			sourceTree = "<group>";
@@ -99,6 +118,16 @@
 				DC27C7481592EB9600F93A92 /* Hitchens2-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC27C76715943AC700F93A92 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DC27C76C15943BF900F93A92 /* report.jpg */,
+				DC27C76A15943B0E00F93A92 /* viles.jpg */,
+			);
+			name = Images;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +184,8 @@
 				DC27C7451592EB9600F93A92 /* InfoPlist.strings in Resources */,
 				DC27C74E1592EB9600F93A92 /* MainStoryboard_iPhone.storyboard in Resources */,
 				DC27C7511592EB9600F93A92 /* MainStoryboard_iPad.storyboard in Resources */,
+				DC27C76B15943B0E00F93A92 /* viles.jpg in Resources */,
+				DC27C76D15943BF900F93A92 /* report.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +198,9 @@
 			files = (
 				DC27C7471592EB9600F93A92 /* main.m in Sources */,
 				DC27C74B1592EB9600F93A92 /* AppDelegate.m in Sources */,
-				DC27C7541592EB9600F93A92 /* ViewController.m in Sources */,
+				DC27C75E1594123F00F93A92 /* MainMenuViewController.m in Sources */,
+				DCDEFB1C159442A4009425BC /* CreateVirusViewController.m in Sources */,
+				DCDEFB20159442B8009425BC /* ReportsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +322,7 @@
 				DC27C7591592EB9600F93A92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
