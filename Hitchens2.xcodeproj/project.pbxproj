@@ -20,7 +20,9 @@
 		DC27C76B15943B0E00F93A92 /* viles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC27C76A15943B0E00F93A92 /* viles.jpg */; };
 		DC27C76D15943BF900F93A92 /* report.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC27C76C15943BF900F93A92 /* report.jpg */; };
 		DCDEFB1C159442A4009425BC /* CreateVirusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDEFB1B159442A4009425BC /* CreateVirusViewController.m */; };
-		DCDEFB20159442B8009425BC /* ReportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDEFB1F159442B8009425BC /* ReportsViewController.m */; };
+		DCE21E9D159D888C00A80DAD /* LocationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE21E9C159D888C00A80DAD /* LocationsTableViewController.m */; };
+		DCE21EA0159D915D00A80DAD /* CLLocation (Strings).m in Sources */ = {isa = PBXBuildFile; fileRef = DCE21E9F159D915D00A80DAD /* CLLocation (Strings).m */; };
+		DCE21EA4159D96B200A80DAD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCE21EA3159D96B200A80DAD /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,8 +45,11 @@
 		DC27C76C15943BF900F93A92 /* report.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = report.jpg; path = Hitchens2/report.jpg; sourceTree = "<group>"; };
 		DCDEFB1A159442A4009425BC /* CreateVirusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateVirusViewController.h; sourceTree = "<group>"; };
 		DCDEFB1B159442A4009425BC /* CreateVirusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateVirusViewController.m; sourceTree = "<group>"; };
-		DCDEFB1E159442B8009425BC /* ReportsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportsViewController.h; sourceTree = "<group>"; };
-		DCDEFB1F159442B8009425BC /* ReportsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportsViewController.m; sourceTree = "<group>"; };
+		DCE21E9B159D888C00A80DAD /* LocationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationsTableViewController.h; sourceTree = "<group>"; };
+		DCE21E9C159D888C00A80DAD /* LocationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationsTableViewController.m; sourceTree = "<group>"; };
+		DCE21E9E159D915D00A80DAD /* CLLocation (Strings).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation (Strings).h"; sourceTree = "<group>"; };
+		DCE21E9F159D915D00A80DAD /* CLLocation (Strings).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation (Strings).m"; sourceTree = "<group>"; };
+		DCE21EA3159D96B200A80DAD /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +98,8 @@
 		DC27C7401592EB9600F93A92 /* Hitchens2 */ = {
 			isa = PBXGroup;
 			children = (
+				DCE21E9E159D915D00A80DAD /* CLLocation (Strings).h */,
+				DCE21E9F159D915D00A80DAD /* CLLocation (Strings).m */,
 				DC27C7491592EB9600F93A92 /* AppDelegate.h */,
 				DC27C74A1592EB9600F93A92 /* AppDelegate.m */,
 				DC27C74C1592EB9600F93A92 /* MainStoryboard_iPhone.storyboard */,
@@ -101,8 +108,8 @@
 				DC27C74F1592EB9600F93A92 /* MainStoryboard_iPad.storyboard */,
 				DCDEFB1A159442A4009425BC /* CreateVirusViewController.h */,
 				DCDEFB1B159442A4009425BC /* CreateVirusViewController.m */,
-				DCDEFB1E159442B8009425BC /* ReportsViewController.h */,
-				DCDEFB1F159442B8009425BC /* ReportsViewController.m */,
+				DCE21E9B159D888C00A80DAD /* LocationsTableViewController.h */,
+				DCE21E9C159D888C00A80DAD /* LocationsTableViewController.m */,
 				DC27C7411592EB9600F93A92 /* Supporting Files */,
 				DC27C76715943AC700F93A92 /* Images */,
 			);
@@ -112,6 +119,7 @@
 		DC27C7411592EB9600F93A92 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DCE21EA3159D96B200A80DAD /* Localizable.strings */,
 				DC27C7421592EB9600F93A92 /* Hitchens2-Info.plist */,
 				DC27C7431592EB9600F93A92 /* InfoPlist.strings */,
 				DC27C7461592EB9600F93A92 /* main.m */,
@@ -186,6 +194,7 @@
 				DC27C7511592EB9600F93A92 /* MainStoryboard_iPad.storyboard in Resources */,
 				DC27C76B15943B0E00F93A92 /* viles.jpg in Resources */,
 				DC27C76D15943BF900F93A92 /* report.jpg in Resources */,
+				DCE21EA4159D96B200A80DAD /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +209,8 @@
 				DC27C74B1592EB9600F93A92 /* AppDelegate.m in Sources */,
 				DC27C75E1594123F00F93A92 /* MainMenuViewController.m in Sources */,
 				DCDEFB1C159442A4009425BC /* CreateVirusViewController.m in Sources */,
-				DCDEFB20159442B8009425BC /* ReportsViewController.m in Sources */,
+				DCE21E9D159D888C00A80DAD /* LocationsTableViewController.m in Sources */,
+				DCE21EA0159D915D00A80DAD /* CLLocation (Strings).m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

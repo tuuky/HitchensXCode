@@ -13,6 +13,7 @@
 
 @synthesize window = _window;
 @synthesize locationManager = _locationManager;
+@synthesize locationMeasurements;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -22,7 +23,9 @@
 	self.locationManager.delegate = self;
 	self.locationManager.distanceFilter = kCLLocationAccuracyHundredMeters;
 	self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
-
+    
+	self.locationMeasurements = [NSMutableArray array];
+    
     NSLog(@"Location Services initialized");
     
     return YES;
@@ -81,6 +84,33 @@
     
     NSLog(@"Lat:%.4f Long:%.4f", newLocation.coordinate.latitude, newLocation.coordinate.longitude);
     
+    //add location data to array
+    // test that the horizontal accuracy does not indicate an invalid measurement
+    if (newLocation.horizontalAccuracy < 0) return;
+    // test the age of the location measurement to determine if the measurement is cached
+    // in most cases you will not want to rely on cached measurements
+    NSTimeInterval locationAge = - [newLocation.timestamp timeIntervalSinceNow];
+    if (locationAge > 5.0) return;
+    
+    // store all of the measurements, just so we can see what kind of data we might receive
+    [locationMeasurements addObject:newLocation];
+    
+    // refresh table data
+    //UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPhone" bundle:nil];
+    
 }
+
+- (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error {
+    // The location "unknown" error simply means the manager is currently unable to get the location.
+    if ([error code] != kCLErrorLocationUnknown) {
+        [self stopUpdatingLocation:NSLocalizedString(@"Error", @"Error")];
+    }
+}
+
+- (void)stopUpdatingLocation:(NSString *)state {
+    [self.locationManager stopUpdatingLocation];
+    self.locationManager.delegate = nil;
+}
+
 
 @end

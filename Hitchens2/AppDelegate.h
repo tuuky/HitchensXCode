@@ -12,9 +12,12 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate>
 {
     CLLocationManager *locationManager;
+    NSMutableArray *locationMeasurements;
+
 }
 
 @property (strong, nonatomic) UIWindow *window;
 @property (nonatomic, retain) CLLocationManager *locationManager;
+@property (nonatomic, retain) NSMutableArray *locationMeasurements;
 
 @end
